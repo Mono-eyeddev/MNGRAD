@@ -3,6 +3,7 @@ import { motion, AnimatePresence, MotionConfig, useReducedMotion, color } from '
 import { ArrowDown, ArrowRight, CalendarDays, Clock3, MapPin, Flower2, Menu, X, Sparkles, Heart, Check} from 'lucide-react'
 import { event, programme, gallery } from './data/event.js'
 import footerBg from './images/footer.jpg'
+import heroImage from './images/Hero.png'
 
 const rise = {
   hidden: { opacity: 0, y: 28 },
@@ -624,7 +625,11 @@ export default function App() {
 </h1>
           <motion.div className="hero-flower" variants={rise}>
             <div className="flower-halo" />
-            <img src="\src\images\Hero.png" alt="A delicate bloom in violet evening light" fetchPriority="high" />
+            <img
+  src={heroImage}
+  alt="A delicate bloom in violet evening light"
+  fetchPriority="high"
+/>
             <span className="flower-caption">GROWTH · GRACE · GRATITUDE</span>
           </motion.div>
           <motion.p className="hero-subtitle" variants={rise}>The Graduation Celebration</motion.p>
