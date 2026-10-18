@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // Keep '/' for local development or a user/organization site.
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  base: '/MNGRAD',
 })
