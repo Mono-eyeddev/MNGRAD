@@ -1307,3 +1307,20 @@ main { position: relative; overflow: hidden; }
     transition: none;
   }
 }
+
+/* Mobile hero typography refinement */
+@media (max-width: 640px) {
+  .hero-graduate-name.magic-writing {
+    font-size: clamp(1.5rem, 7vw, 2.5rem);
+    line-height: 1.2;
+    width: 100%;
+    max-width: 100%;
+    padding-inline: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero-graduate-name.magic-writing {
+    font-size: clamp(1.35rem, 6.5vw, 1.75rem);
+  }
+}

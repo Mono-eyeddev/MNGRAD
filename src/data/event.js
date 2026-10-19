@@ -56,5 +56,21 @@ export const gallery = [
     alt: 'A special graduation memory',
     className: 'gallery-wide',
   },
+    {
+    src: 'https://res.cloudinary.com/lbs3zryh/image/upload/f_auto,q_auto/WhatsApp_Image_2026-10-19_at_12.03.58_PM',
+    alt: 'Elegant graduation portrait',
+    className: 'gallery-tall',
+  },
+    {
+    src: 'https://res.cloudinary.com/lbs3zryh/image/upload/f_auto,q_auto/WhatsApp_Image_2026-10-19_at_12.01.59_PM',
+    alt: 'Elegant graduation portrait',
+    className: 'gallery-tall',
+  },
+  {
+    src: 'https://res.cloudinary.com/lbs3zryh/image/upload/f_auto,q_auto/WhatsApp_Image_2026-10-18_at_4.00.34_PM',
+    alt: 'Elegant graduation portrait',
+    className: 'gallery-tall',
+  },
+  
 ]
 
