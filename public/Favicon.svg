@@ -1,0 +1,181 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Midnight Rose — Graduation Emblem</title>
+  <defs>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#382052"/>
+      <stop offset=".5" stop-color="#191024"/>
+      <stop offset="1" stop-color="#08060B"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#765096"/>
+      <stop offset=".45" stop-color="#382052"/>
+      <stop offset="1" stop-color="#100A18"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#68438A"/>
+      <stop offset=".55" stop-color="#382052"/>
+      <stop offset="1" stop-color="#100A18"/>
+    </linearGradient>
+    <linearGradient id="black" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#191024"/>
+      <stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="16" y="16" width="480" height="480" rx="92"/>
+    </clipPath>
+  </defs>
+
+  <!-- Obsidian-black field -->
+  <rect width="512" height="512" rx="92" fill="#000000"/>
+  <rect x="16" y="16" width="480" height="480" rx="84"
+        fill="url(#black)" stroke="#191024" stroke-width="4"/>
+
+  <g clip-path="url(#frame)">
+    <!-- Engraved circular insignia -->
+    <circle cx="256" cy="256" r="207"
+            fill="none" stroke="#191024" stroke-width="3"/>
+    <circle cx="256" cy="256" r="195"
+            fill="none" stroke="#382052" stroke-width="2"/>
+    <circle cx="256" cy="256" r="185"
+            fill="none" stroke="#191024" stroke-width="1.5"
+            stroke-dasharray="2 10"/>
+
+    <!-- Sculpted graduation gown -->
+    <path d="M156 259
+             L199 283
+             L256 316
+             L313 283
+             L356 259
+             L388 405
+             Q322 447 256 447
+             Q190 447 124 405 Z"
+          fill="url(#purple)" stroke="#382052" stroke-width="5"
+          stroke-linejoin="round"/>
+
+    <path d="M199 283 L222 337 L256 316 L290 337 L313 283"
+          fill="none" stroke="#382052" stroke-width="5"
+          stroke-linejoin="round"/>
+
+    <path d="M222 337 L194 409 M290 337 L318 409"
+          fill="none" stroke="#191024" stroke-width="5"
+          stroke-linecap="round"/>
+
+    <path d="M143 399 Q256 456 369 399"
+          fill="none" stroke="#382052" stroke-width="4"/>
+
+    <!-- Cap crown beneath the rose -->
+    <path d="M176 190
+             Q183 150 224 142
+             L288 142
+             Q329 150 336 190
+             L326 251
+             Q256 281 186 251 Z"
+          fill="url(#purple)" stroke="#382052" stroke-width="5"
+          stroke-linejoin="round"/>
+
+    <!-- Mortarboard: sculpted, geometric silhouette -->
+    <path d="M67 197 L256 105 L445 197
+             L256 292 Z"
+          fill="url(#purple)" stroke="#765096" stroke-width="6"
+          stroke-linejoin="round"/>
+
+    <path d="M92 198 L256 119 L419 198
+             L256 276 Z"
+          fill="none" stroke="#382052" stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <!-- Architectural panel facets -->
+    <path d="M256 119 L256 276
+             M92 198 L256 231 L419 198"
+          fill="none" stroke="#191024" stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <path d="M110 198 L256 129 L402 198"
+          fill="none" stroke="#382052" stroke-width="2"/>
+
+    <!-- Rose leaves: built into the centre of the cap -->
+    <path d="M256 225
+             C230 213 207 185 214 164
+             C240 171 256 195 256 225 Z"
+          fill="url(#edge)" stroke="#765096" stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <path d="M256 224
+             C278 194 301 185 319 190
+             C310 213 285 229 256 224 Z"
+          fill="url(#edge)" stroke="#765096" stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <path d="M249 214 Q234 193 222 178
+             M266 217 Q288 199 305 196"
+          fill="none" stroke="#191024" stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Rose silhouette: layered, sculpted petals -->
+    <path d="M256 226
+             C224 221 204 200 214 177
+             C222 160 244 160 256 179
+             C265 151 297 152 308 174
+             C323 203 295 224 256 226 Z"
+          fill="url(#rose)" stroke="#765096" stroke-width="4"
+          stroke-linejoin="round"/>
+
+    <!-- Outer petal folds -->
+    <path d="M256 220
+             C232 207 228 188 241 177
+             C252 169 265 183 260 194
+             C278 173 298 188 290 204
+             C283 217 270 221 256 220 Z"
+          fill="url(#purple)" stroke="#68438A" stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <!-- Inner unfurling petals -->
+    <path d="M256 215
+             C241 205 245 190 256 188
+             C267 188 276 200 265 210
+             C277 206 282 195 275 186
+             C294 195 285 215 256 215 Z"
+          fill="url(#edge)" stroke="#765096" stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <path d="M256 210
+             C248 202 253 196 260 198
+             C266 201 262 207 256 210 Z"
+          fill="#191024" stroke="#68438A" stroke-width="2"/>
+
+    <!-- Fine rose-vein engraving -->
+    <path d="M231 184 Q239 197 250 201
+             M281 180 Q273 195 264 200
+             M239 207 Q247 212 253 213"
+          fill="none" stroke="#765096" stroke-width="2"
+          stroke-linecap="round"/>
+
+    <!-- Tassel cord, draped along the right edge -->
+    <path d="M445 197
+             Q456 226 445 259
+             Q435 282 448 302"
+          fill="none" stroke="#765096" stroke-width="5"
+          stroke-linecap="round"/>
+
+    <path d="M448 298
+             C435 307 434 331 438 349
+             L448 377 L458 349
+             C462 331 461 307 448 298 Z"
+          fill="url(#edge)" stroke="#765096" stroke-width="4"
+          stroke-linejoin="round"/>
+
+    <path d="M448 309 L448 364
+             M440 315 L448 356
+             M456 315 L448 356"
+          fill="none" stroke="#191024" stroke-width="3"
+          stroke-linecap="round"/>
+
+    <!-- Restrained engraved accents -->
+    <path d="M178 445 Q256 469 334 445"
+          fill="none" stroke="#191024" stroke-width="3"/>
+    <path d="M242 465 L256 472 L270 465"
+          fill="none" stroke="#382052" stroke-width="3"
+          stroke-linejoin="round"/>
+  </g>
+</svg>
