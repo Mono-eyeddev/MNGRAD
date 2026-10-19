@@ -1308,19 +1308,47 @@ main { position: relative; overflow: hidden; }
   }
 }
 
-/* Mobile hero typography refinement */
+
+/* Bigger, more prominent mobile hero */
 @media (max-width: 640px) {
+  .hero {
+    min-height: 100svh;
+    padding: 125px 16px 80px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .hero-graduate-name.magic-writing {
-    font-size: clamp(1.5rem, 7vw, 2.5rem);
+    font-size: clamp(2rem, 9vw, 3.5rem);
     line-height: 1.2;
     width: 100%;
     max-width: 100%;
-    padding-inline: 8px;
+  }
+
+  .hero-flower {
+    width: clamp(145px, 38vw, 190px);
+    height: clamp(145px, 38vw, 190px);
+  }
+
+  .hero-pretitle {
+    font-size: 1.15rem;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.25rem, 5vw, 1.7rem);
+  }
+
+  .hero-date {
+    font-size: 0.65rem;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .hero-graduate-name.magic-writing {
-    font-size: clamp(1.35rem, 6.5vw, 1.75rem);
+    font-size: 1.8rem;
   }
 }
+
